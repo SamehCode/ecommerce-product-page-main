@@ -1,0 +1,32 @@
+{"products" : 
+    [
+        {
+            "name":"Fall Limited Edition Sneakers",
+            "discount":"125.00",
+            "price":"250.00",
+            "img": "./images/image-product-1-thumbnail.jpg",
+            "text":"These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer."
+        },
+        {
+            "name":"Product Number 2 bla bla",
+            "discount":"135.00",
+            "price":"270.00",
+            "img": "./images/image-product-2-thumbnail.jpg",
+            "text": "This is lorem test bla =>> (2) Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iste autem porro vero deserunt ipsa dolorum maiores in ad, temporibus quam facilis nam cum, ipsam quaerat possimus nostrum officia earum"
+        },
+        {
+            "name":"Product Number 3 bla bla",
+            "discount":"150.00",
+            "price":"300.00",
+            "img": "./images/image-product-3-thumbnail.jpg",
+            "text": "[3]This is lorem test bla (3) Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iste autem porro vero deserunt ipsa dolorum maiores in ad, temporibus quam facilis nam cum, ipsam quaerat possimus nostrum officia earum"
+        },
+        {
+            "name":"Product Number 4 bla bla",
+            "discount":"185.00",
+            "price":"370.00",
+            "img": "./images/image-product-4-thumbnail.jpg",
+            "text": "[4]This is lorem test bla (4) Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iste autem porro vero deserunt ipsa dolorum maiores in ad, temporibus quam facilis nam cum, ipsam quaerat possimus nostrum officia earum"
+        }
+    ]
+}

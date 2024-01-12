@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./fonts/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div id="toggle" class="toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <ul class="links">
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <div class="market">
+      <div id="cart">
+        <img src="./images/icon-cart.svg" alt="">
+        <span class="count">0</span>
+      </div>
+      <div class="profile">
+        <img src="./images/image-avatar.png" alt="">
+      </div>
+    </div>
+    <div id="checkout">
+      <h4>cart</h4>
+      <div class="contain">
+        <p class='empty'></p>
+        <div class="product">
+          <div class="image">
+            <img id="cover" src="" alt="">
+          </div>
+          <div class="details">
+            <p id="title"></p>
+            <div class="price"><span id="discount"></span> <span class="quantity"></span> <span class="total"></span></div>
+          </div>
+          <span class="delBtn"></span>
+          <button class="hide" type="submit">checkout</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="landing">
+    <div class="directions">
+      <div id="left">
+        <span class="icon-chevron-left"></span>
+      </div>
+      <div id="right">
+        <span class="icon-chevron-right"></span>
+      </div>
+    </div>
+    <div class="products">
+      <div class="preview">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="">
+      </div>
+      <div class="all-products">
+        <div class="product active">
+          <img src="./images/image-product-1-thumbnail.jpg" alt="">
+        </div>
+        <div class="product">
+          <img src="./images/image-product-2-thumbnail.jpg" alt="">
+        </div>
+        <div class="product">
+          <img src="./images/image-product-3-thumbnail.jpg" alt="">
+        </div>
+        <div class="product">
+          <img src="./images/image-product-4-thumbnail.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="info">
+      <h5>Sneaker Company</h5>
+      <h1 class="title">Fall Limited Edition Sneakers</h1>
+      <p class="desc">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      <div class="price">
+        <div class="offer"><span class="discount">$125.00</span> <span>50%</span></div>
+        <del id="total">$250.00</del>
+      </div>
+      <div class="control-board">
+        <div class="count">
+          <div class="minus">
+            <img src="./images/icon-minus.svg" alt="">
+          </div>
+          <span id="counter">0</span>
+          <div class="plus">
+            <img src="./images/icon-plus.svg" alt="">
+          </div>
+        </div>
+        <div class="add-cart">
+          <span class="icon-cart"></span>
+          <p>Add to cart</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
